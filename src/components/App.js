@@ -29,7 +29,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h2>Music Master</h2>
+        <h2>React + Spotify</h2>
         <Search searchArtist={this.searchArtist} />
         <Artist artist={this.state.artist} />
         <Tracks tracks={this.state.tracks} />
